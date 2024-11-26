@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Website</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="media.html">Media</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <h1>Welcome to Per Scholas Health Center</h1>
+  <div class="booking-container">
+    <p id="moving-text" style="font-weight: bold; text-align: center; color: orangered" >
+      *************************   The website is under construction.  ********************************
+    </p>
+    <br><br><br>
+    <p>The Book an Appointment is a field that allows users schedule an appointment.</p>
+    <h2>Book an Appointment</h2>
+    <form action="/book-appointment" method="POST">
+      <label for="doctor">Select Doctor:</label>
+      <select id="doctor" name="doctor" required>
+        <option value="doctor1">Dr. Smith</option>
+        <option value="doctor2">Dr. Ezra</option>
+        <option value="doctor1">Dr. Omar</option>
+        <option value="doctor2">Dr. Jones</option>
+        <option value="doctor1">Dr. Tammy</option>
+        <option value="doctor2">Dr. Norstar</option>
+      </select>
+
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="time">Time:</label>
+      <input type="time" id="time" name="time" required>
+
+      <label for="appointment-type">Appointment Type:</label>
+      <select id="appointment-type" name="appointmentType" required>
+        <option value="consultation">Consultation</option>
+        <option value="follow-up">Follow-up</option>
+        <!-- Add more options as needed -->
+      </select>
+
+      <button type="submit">Book Appointment</button>
+    </form>
+  </div>
+<hr style="solid-color: #333333"/>
+  <p>The wireframe for the login is </p>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form action="login.html" method="POST">
+      <label>Email:</label>
+      <input type="email" name="email">
+
+      <label>Password:</label>
+      <input type="password" name="password">
+
+      <button type="submit">Login</button>
+      <a href="forgotpassword.html">Forgot Password?</a>
+    </form>
+  </div>
+  <hr style="solid-color: #333333"/>
+  <div>
+  <p>Subscribe to our newsletter:</p>
+  <form id="subscribe-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <button type="submit">Subscribe</button>
+  </form>
+    <p>Your information will appear in the subscribers list below after you sign up.</p>
+  <div id="subscribers">
+    <h2>Subscribers:</h2>
+    <ul id="subscriber-list"></ul>
+  </div>
+ </div>
+</main>
+<script src="js/app.js"></script>
+</body>
+</html>

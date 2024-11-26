@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Gallery</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    .car img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html" class="active">Gallery</a></li>
+      <li><a href="media.html">Media</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <h1>Car Gallery</h1>
+  <p>Explore our collection of cars below. Hover over a placeholder to see the car's name. Click to zoom in!</p>
+  <div id="car img" class="gallery">
+    <div class="car" data-car-name="Audi">
+      <img src="img/audi.jpg" alt="Audi">
+      <p>Audi</p>
+    </div>
+    <div class="car" data-car-name="Benz">
+      <img src="img/benz.jpg" alt="Benz">
+      <p>Mercedes Benz</p>
+    </div>
+    <div class="car" data-car-name="BMW">
+      <img src="img/bmw.jpg" alt="BMW">
+      <p>BMW</p>
+    </div>
+    <div class="car" data-car-name="Range Rover">
+      <img src="img/rangerover.jpg" alt="Range Rover">
+      <p>Range Rover</p>
+    </div>
+    <div class="car" data-car-name="Renault">
+      <img src="img/renault.jpg" alt="Renault">
+      <p>Renault</p>
+    </div>
+    <div class="car" data-car-name="Jeep">
+      <img src="img/jeep.jpg" alt="Jeep">
+      <p>Jeep</p>
+    </div>
+    <div class="car" data-car-name="traffic">
+      <img src="img/traffic.jpg" alt="traffic">
+      <p>There is so much <b>Traffic</b> for now. <br>
+        Come back later to see more of the cars!</p>
+    </div>
+  </div>
+</main>
+<div class="booking-container">
+  <p id="moving-text" style="font-weight: bold; text-align: center; color: orangered" >
+    *************************   The website is under construction.  ********************************
+  </p>
+</div>
+<script src="js/gallery.js"></script>
+</body>
+</html>
