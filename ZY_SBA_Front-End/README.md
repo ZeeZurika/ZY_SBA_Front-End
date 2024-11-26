@@ -1,4 +1,4 @@
-GitHub Link: https://github.com/ZeeZurika/ZY_SBA_Front-End.git
+GitHub Link: [https://github.com/ZeeZurika/ZY_SBA_Front-End.git](https://github.com/ZeeZurika/ZY_SBA_Front-End.git)
 
 Description:
 The Media Gallery Website is a user-friendly, interactive web application designed to display a gallery of videos.
