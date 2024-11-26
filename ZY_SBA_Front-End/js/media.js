@@ -1,15 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
   const videoData = [
-    { src: 'videos/citytraffic.mp4', thumbId: 'city-drive' },
-    { src: 'videos/desertdrive.mp4', thumbId: 'desert-drive' },
-    { src: 'videos/javaclass.mp4', thumbId: 'java-class' },
-    { src: 'videos/ontheroad.mp4', thumbId: 'the-road' },
-    { src: 'videos/tunnel.mp4', thumbId: 'tunnel-drive' }
+    {src: 'videos/citytraffic.mp4', thumbId: 'city-drive'},
+    {src: 'videos/desertdrive.mp4', thumbId: 'desert-drive'},
+    {src: 'videos/javaclass.mp4', thumbId: 'java-class'},
+    {src: 'videos/ontheroad.mp4', thumbId: 'the-road'},
+    {src: 'videos/tunnel.mp4', thumbId: 'tunnel-drive'}
   ];
 
   const mainVideo = document.getElementById('main-video');
 
-  videoData.forEach(({ src, thumbId }) => {
+  videoData.forEach(({src, thumbId}) => {
     // Create a hidden video element
     const videoElement = document.createElement('video');
     videoElement.src = src;

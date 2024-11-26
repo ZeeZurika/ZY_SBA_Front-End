@@ -3,7 +3,7 @@ let subscribers = [];
 
 // Function to add a subscriber
 function addSubscriber(name, email) {
-  subscribers.push({ name, email }); // Add subscriber to the array
+  subscribers.push({name, email}); // Add subscriber to the array
   updateSubscriberList(); // Update the list displayed
 }
 

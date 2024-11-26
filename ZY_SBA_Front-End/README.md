@@ -1,7 +1,10 @@
+GitHub Link: https://github.com/ZeeZurika/ZY_SBA_Front-End.git
+
 Description:
-The Media Gallery Website is a user-friendly, interactive web application designed to display a gallery of videos. 
-Users can click on dynamically generated video thumbnails to play their selected video in a centralized player. 
-The site incorporates modern web design practices, including JavaScript-driven interactivity, responsive styling, and media playback features.
+The Media Gallery Website is a user-friendly, interactive web application designed to display a gallery of videos.
+Users can click on dynamically generated video thumbnails to play their selected video in a centralized player.
+The site incorporates modern web design practices, including JavaScript-driven interactivity, responsive styling, and
+media playback features.
 
 Features:
 Dynamic Thumbnail Generation: Video thumbnails are dynamically created using JavaScript and the <canvas> API.
@@ -19,10 +22,10 @@ HTML5: Structure and semantics.
 CSS3: Styling and responsive layout.
 Inline, internal, and external stylesheets used.
 Five different CSS selectors were implemented.
-JavaScript (ES6+): Dynamic interactivity.
+JavaScript: Dynamic interactivity.
 Event-driven programming.
 DOM manipulation.
-<canvas> API for thumbnail generation.
+API for thumbnail generation.
 Media Elements:
 Videos in .mp4 format.
 Dynamic thumbnail rendering via <canvas>.
