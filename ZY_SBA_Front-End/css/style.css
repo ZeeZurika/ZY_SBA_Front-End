@@ -122,3 +122,10 @@ button:hover {
     left: -100%;
   }
 }
+
+#main-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
