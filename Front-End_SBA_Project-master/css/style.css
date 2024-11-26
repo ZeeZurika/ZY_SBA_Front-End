@@ -116,9 +116,9 @@ button:hover {
 
 @keyframes move-left {
   from {
-    left: 100%; /* Start outside the right boundary */
+    left: 100%;
   }
   to {
-    left: -100%; /* Move completely outside the left boundary */
+    left: -100%;
   }
 }
