@@ -111,7 +111,7 @@ button:hover {
 
 #moving-text {
   position: relative; /* Required for animation */
-  animation: move-left 20s linear forwards;
+  animation: move-left 20s linear infinite;
 }
 
 @keyframes move-left {
